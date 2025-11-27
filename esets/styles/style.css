@@ -18,6 +18,7 @@
     font-size: 16px;
     text-align: center;
     color: #fff;
+    cursor: pointer;
 }
 .conteiner {
     max-width: 1115px;
@@ -149,6 +150,7 @@ body {
     color: var(--grey);
 }
 /* services===================================== */
+/* aboutUs===================================== */
 .aboutUs .conteiner{
     display: flex;
     flex-direction: column;
@@ -230,4 +232,70 @@ body {
     font-size: 16px;
     line-height: 158%;
     color: var(--grey);
+}
+/* aboutUs===================================== */
+/* servicesAll================================ */
+.allServices {
+    padding: 100px 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #504dc2 50%, #ffffff 50%);
+}
+.allServices .conteiner {
+    display: flex;
+    flex-direction: column;
+}
+.allServicesWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.allServicesTitle {
+    max-width: 530px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    color: #fff;
+}
+.allServicesBtn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.allServicesMenu {
+    display: flex;
+    justify-content: space-between;
+}
+.allServicesCard {
+    max-width: 350px;
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.allServicesCard-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+}
+.allServicesCard-title span{
+    color: var(--accent);
+}
+.allServicesCard-subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: var(--grey);
+}
+.allServicesCard-href {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--accent);
 }
