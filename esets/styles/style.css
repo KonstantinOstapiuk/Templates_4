@@ -1,0 +1,152 @@
+:root {
+	--accent: #4985ff;
+	--dark: #323232;
+	--grey: #999;
+	--light-grey: #e0e0e0;
+}
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+.btn {
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
+    background: var(--accent);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.conteiner {
+    max-width: 1115px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+/* header===================================== */
+.header {
+    width: 100%;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header .conteiner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.headerHref {
+    margin-right: 40px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* header===================================== */
+/* hero====================================== */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #344b6b url('../images/Rectangle.png')  no-repeat center/cover;
+    color: #fff;
+}
+.heroSubtitle {
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.heroTitle {
+    max-width: 829px;
+    margin-bottom: 50px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 134%;
+    text-align: center;
+    cursor: pointer;
+}
+/* hero====================================== */
+/* services================================= */
+.services {
+    padding: 100px 0;
+}
+.services .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.servicesTitle {
+    max-width: 740px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    text-align: center;
+    color: var(--dark);
+}
+.servicesSubtitle {
+    max-width: 730px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    text-align: center;
+    color: var(--grey);
+}
+
+.servicesMenu {
+    display: flex;
+    gap: 27px;
+    
+}
+
+.servicesCard {
+    max-width: 353px;
+    height: 139px;
+    display: flex;
+    gap: 18px;
+    
+}
+.servicesCardImg {
+    width: 110px;
+    height: 110px;
+}.serviceImg {
+    width: 100%;
+    height: 100%;
+     object-fit: contain;
+}
+.servicesCardText {
+    margin-top: 40px;
+}
+.servicesCardTitle {
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+.servicesCardSubtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    color: var(--grey);
+}
+/* services===================================== */
