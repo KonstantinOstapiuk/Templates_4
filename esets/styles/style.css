@@ -28,6 +28,11 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+.line{
+    border: 1px solid var(--light-grey);
+    width: 1110px;
+    height: 0px;
+}
 /* header===================================== */
 .header {
     width: 100%;
@@ -151,6 +156,10 @@ body {
 }
 /* services===================================== */
 /* aboutUs===================================== */
+.aboutUs {
+    background: #f6f6f8;
+    padding: 100px 0 70px 0;
+}
 .aboutUs .conteiner{
     display: flex;
     flex-direction: column;
@@ -204,7 +213,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid var(--light-grey);
     padding: 70px 0;
 }
 .aboutUsNum {
@@ -268,6 +276,7 @@ body {
 .allServicesMenu {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 .allServicesCard {
     max-width: 350px;
@@ -298,4 +307,37 @@ body {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: var(--accent);
+}
+/* servicesAll=================================== */
+/* allProjects================================== */
+.allProjects {
+    background: #f6f6f8;
+    padding: 100px 0;
+}
+.allProjects .conteiner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+}
+.allProjectsTitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    text-align: center;
+    color: #000;
+}
+.allProjectsSubtitle {
+    max-width: 670px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    text-align: center;
+    color: var(--grey);
+}
+.allProjectsMenu {
+    display: flex; 
+    gap: 30px;
 }
